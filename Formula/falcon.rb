@@ -11,8 +11,8 @@ class Falcon < Formula
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/falcon"
 
-    bash_completion.install "#{libexec}/node_modules/@pm-connect/plugin-autocomplete/autocomplete/brew/bash"
-    zsh_completion.install "#{libexec}/node_modules/@pm-connect/plugin-autocomplete/autocomplete/brew/zsh/_falcon"
+    # bash_completion.install "#{libexec}/node_modules/@pm-connect/plugin-autocomplete/autocomplete/brew/bash"
+    # zsh_completion.install "#{libexec}/node_modules/@pm-connect/plugin-autocomplete/autocomplete/brew/zsh/_falcon"
   end
 
   def caveats; <<~EOS
