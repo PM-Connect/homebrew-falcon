@@ -2,7 +2,7 @@ class Falcon < Formula
   desc "Everything you need to get started with Falcon"
   homepage "https://falcon.pmcservices.co.uk"
   url "https://assets.falcon.pmcservices.co.uk/falcon-v0.1.1/falcon-v0.1.1.tar.xz"
-  sha256 ""
+  sha256 "c7c687c6f8ffcc06bac7bccafa86fc88d7c17ffe69946a425125f26e38ed5325"
   depends_on "PM-Connect/falcon/falcon-node"
 
   def install
